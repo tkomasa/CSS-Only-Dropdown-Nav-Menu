@@ -2,13 +2,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Format the links to not have default color/hover effects. */
+
 a {
     text-decoration: none;
 }
 
+
+/* Format navbar to be monospace. */
+
 nav {
     font-family: monospace;
 }
+
+
+/* Set the default look of the navbar items. */
 
 ul {
     background: rgb(28, 38, 43);
@@ -16,6 +25,9 @@ ul {
     margin: 0;
     padding-left: 0;
 }
+
+
+/* Set the default look of each link in the navbar. */
 
 li {
     color: #fff;
@@ -28,14 +40,23 @@ li {
     transition-duration: 0.5s;
 }
 
+
+/* Set default text color of links. */
+
 li a {
     color: #fff;
 }
+
+
+/*  */
 
 li:hover {
     background: rgb(11, 15, 17);
     cursor: pointer;
 }
+
+
+/*  */
 
 ul li ul {
     background: rgb(41, 56, 63);
@@ -49,12 +70,18 @@ ul li ul {
     display: none;
 }
 
+
+/*  */
+
 ul li:hover>ul,
 ul li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
 }
+
+
+/*  */
 
 ul li ul li {
     clear: both;
