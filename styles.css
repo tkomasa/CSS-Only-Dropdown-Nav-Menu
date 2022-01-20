@@ -48,7 +48,7 @@ li a {
 }
 
 
-/*  */
+/* Set hover effects of the main links. (Not the dropdown links) */
 
 li:hover {
     background: rgb(11, 15, 17);
@@ -56,7 +56,7 @@ li:hover {
 }
 
 
-/*  */
+/* Set the default values for the dropwdown box itself. */
 
 ul li ul {
     background: rgb(41, 56, 63);
@@ -71,7 +71,7 @@ ul li ul {
 }
 
 
-/*  */
+/* Add the dropdown function on hovering over the list item. */
 
 ul li:hover>ul,
 ul li ul:hover {
@@ -81,7 +81,7 @@ ul li ul:hover {
 }
 
 
-/*  */
+/* Set the default look of the sub items in the dropdown. */
 
 ul li ul li {
     clear: both;
